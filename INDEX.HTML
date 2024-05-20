@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InstaPet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bienvenidos a InstaPet</h1>
+  <p>InstaPet es la comunidad perfecta para compartir y descubrir las fotos más adorables de tus mascotas. Regístrate para unirte a nuestra comunidad y comenzar a compartir las aventuras de tu amigo peludo.</p>
+
+  <form action="https://formsubmit.co/Federicoelizate@hotmail.com.ar" method="POST">
+    <label for="nombreMascota">Nombre de la mascota:</label>
+    <input type="text" id="nombreMascota" name="nombreMascota" placeholder="Nombre de la mascota">
+    
+    <label>Edad de la mascota:
+      <input type="number" id="edadMascota" name="edadMascota" placeholder="Edad de la mascota">
+    </label>
+    
+    <label for="correoElectronico">Correo electrónico:</label>
+    <input type="email" id="correoElectronico" name="correoElectronico" placeholder="Correo electrónico">
+    
+    <label>Contraseña:
+      <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña">
+    </label>
+    
+    <p>Género de la mascota:</p>
+    <label for="macho">Macho
+      <input type="radio" id="macho" name="generoMascota" value="macho">
+    </label>
+    <label for="hembra">Hembra
+      <input type="radio" id="hembra" name="generoMascota" value="hembra">
+    </label>
+    
+    <label for="tipo_de_mascota">Tipo de mascota:</label>
+    <select id="tipo_de_mascota" name="tipo_de_mascota">
+      <option value="gato">Gato</option>
+      <option value="guau">Perro</option>
+      <option value="cobayo">Cobayo</option>
+      <option value="otra">Otra</option>
+    </select>
+    
+    <label for="bases_y_condiciones">
+      <input type="checkbox" id="bases_y_condiciones" name="bases_y_condiciones" value="acepta">
+      Acepto las bases y condiciones
+    </label>
+    
+    <button type="submit">Registrarse</button>
+  </form>
+</body>
+</html>
